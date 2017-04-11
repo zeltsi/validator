@@ -44,7 +44,7 @@ Template.Smsg.events({
     "click #checkAddress"(event, Template){
 
 	if (network.checked){
-		contractAddress = "0x024e57d249CCB2422869a3b8D54580bFdAd2F6fB";
+		contractAddress = "0x985cE5070EB1C077CeEfF3691899196c2a2F17c0";	 //livenet
 		Validator = web3.eth.contract(contractABI).at(contractAddress);
 	}else{
 		contractAddress = "0xee9c02c520dd3c0c229f7ac76c593cb49c43ab90";  //testnet
